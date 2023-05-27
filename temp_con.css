@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;  
+    box-sizing: content-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.temp{
+    font-size: 150px;
+    color: rgb(255, 255, 255);   
+}
+.Container{
+    margin: 0 auto;
+    background-color: black;
+    max-height: 400px;
+    max-width: 600px;
+    border-radius: 5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.Container:hover{
+    box-shadow: 0 0 20rem white;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+.temp-icon{
+font-size: 45px;
+color: rgb(255, 255, 255);
+}
+h1{
+    font-size: medium;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+#celcius, #Fahrenheit, #Kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px; 
+    padding: 0 10px;
+}
+
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(155, 17, 17);
+    color: white;
+    border-radius: 0 8px 8px 0;
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+.button button{
+border: none;
+outline:none;
+border-radius: 4rem;
+padding: 10px 30px;
+font-size: 20px;
+font-weight: 600;
+}
+
+.button button:hover{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem red;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
